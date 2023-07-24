@@ -1,12 +1,15 @@
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   div.caixa {
     height: 100vh;
     width: 100vw;
     box-shadow: none;
   }
+  form {
+    margin-bottom: 40px;
+  }
 
   #logo2 {
-    display: block;
+    display:inline;
     position: relative;
     width: 26%;
     margin-top: 40px;
@@ -17,7 +20,7 @@
   img#mulher2 {
     display: block;
     position: relative;
-    width: 100vw;
+    width: 100%;
     margin-bottom: 65px;
   }
 
@@ -28,11 +31,11 @@
     align-items: center;
     margin: 0;
   }
-
-  .texto {
-    margin-top: 0;
-    width: 350px;
+  div p.texto {
+    margin: 0;
+    width: 100vw;
     text-align: center;
+    width: 380px;
   }
   #textoMaior {
     font-size: 45px;
@@ -44,6 +47,7 @@
   }
 
   #textoMenor {
+    width: 350px;
     font-size: 14px;
     line-height: 26px;
     margin-bottom: 30px;
@@ -99,18 +103,10 @@
 @media (max-width: 400px) {
     #email {
         position: absolute;
+        width: 310px;
         left: 18px;
-        width: 320px;
         height: 56px;
         font-size: 14px;
-      }
-    
-      .icon {
-        position: relative;
-        margin: -17px;
-        right: 60px;
-        bottom: 8px;
-        height: 27px;
       }
     
       #botao {
@@ -121,13 +117,4 @@
         height: 59px;
       }
     
-      #botao img {
-        height: 26px;
-      }
-    
-      .error {
-        margin-top: 5px;
-        margin-left: 33.5px;
-        font-size: 14px;
-      }
 }
