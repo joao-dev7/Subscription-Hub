@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./images/icon-arrow.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/estilo.css" />
+    <link rel="stylesheet" href="./src/responsivo.css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <div class="caixa">
+      <img id="logo" src="./images/logo.svg" alt="Base Apparel" />
+      <img id="logo2" src="./images/logo.svg" alt="Base Apparel" />
+      <img id="mulher2" src="./images/hero-mobile.jpg" alt="Mulher Foto" />
+      <img id="mulher" src="./images/hero-desktop.jpg" alt="Mulher Foto" />
+
+      <div class="caixaIntra">
+        <p class="texto" id="textoMaior">
+          Em Breve <span>chegare-<br />mos</span>
+        </p>
+        <p class="texto" id="textoMenor">
+          Olá, colegas compradores! Atualmente, estamos construindo nossa nova
+          loja de moda. Adicione seu e-mail abaixo para receber nossos anúncios
+          e ofertas de lançamento.
+        </p>
+        <form id="form">
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Endereço de Email"
+              required
+            />
+            <img class="icon" src="./images/icon-error.svg" alt="erro" />
+            <button type="submit" class="submit" id="botao">
+              <img src="./images/icon-arrow.svg" alt="enviar" />
+            </button>
+          </div>
+          <small class="error">Insira um email válido</small>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.linkedin.com/in/joaopedrossdev/"
+          >João Pedro Silva Sales</a
+        >.
+      </p>
+    </footer>
+    <script src="./src/projeto.js"></script>
+  </body>
+</html>

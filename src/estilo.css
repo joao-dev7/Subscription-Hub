@@ -1,0 +1,141 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  color: hsl(0, 36%, 70%);
+  text-align: left;
+}
+
+body {
+  margin: 0px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 24%, 96%);
+}
+
+#logo {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+}
+
+#mulher {
+  float: right;
+  height: 650px;
+}
+
+div.caixa {
+  height: 650px;
+  width: 1150px;
+  box-shadow: 0px 9px 20px 0px hsl(0, 6%, 74%);
+}
+
+div.caixaIntra {
+  margin-left: 100px;
+}
+
+div p.texto {
+  width: 400px;
+}
+
+#textoMaior {
+  font-size: 52px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 12px;
+}
+
+#textoMaior span {
+  color: hsl(0, 6%, 24%);
+  font-weight: 400;
+}
+
+#textoMenor {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+#email {
+  font-weight: 600;
+  width: 329px;
+  height: 41px;
+  text-indent: 20px;
+  border-radius: 30px;
+  color: hsl(0, 6%, 24%);
+  border: 1px solid hsl(0, 80%, 86%);
+}
+
+#email:focus {
+  outline: 0;
+}
+
+#email::placeholder {
+  color: hsl(0, 80%, 86%);
+  text-indent: 20px;
+}
+
+.icon {
+  position: relative;
+  display: none;
+  margin: -14.5px;
+  right: 82px;
+  bottom: 6px;
+  height: 18%;
+}
+
+.error {
+  display: none;
+  position: relative;
+  top: 5px;
+  left: 25px;
+  font-size: 12px;
+  color: hsl(0, 93%, 68%);
+  font-weight: 400;
+}
+
+#botao {
+  position: relative;
+  top: 3.5px;
+  right: 65px;
+  width: 75px;
+  height: 45px;
+  border-radius: 30px;
+  border: 0px solid hsl(0, 80%, 86%);
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+#botao:hover {
+  box-shadow: -2px 7px 12px 0px hsl(0, 48%, 78%);
+  background: hsl(0, 80%, 86%);
+}
+
+#botao img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 14px;
+}
+
+img#mulher2 {
+  display: none;
+}
+
+#logo2 {
+  display: none;
+}
+
+footer {
+  margin-top: 10px;
+}
