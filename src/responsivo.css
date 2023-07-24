@@ -35,7 +35,7 @@
     text-align: center;
   }
   #textoMaior {
-    font-size: 48px;
+    font-size: 45px;
     line-height: 50px;
     margin-bottom: 14px;
   }
@@ -44,14 +44,14 @@
   }
 
   #textoMenor {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     margin-bottom: 30px;
   }
 
   #email {
     position: relative;
-    left: 35px;
+    left: 18px;
     width: 320px;
     height: 56px;
     font-size: 14px;
@@ -94,4 +94,40 @@
   footer {
     display: none;
   }
+}
+
+@media (max-width: 400px) {
+    #email {
+        position: absolute;
+        left: 18px;
+        width: 320px;
+        height: 56px;
+        font-size: 14px;
+      }
+    
+      .icon {
+        position: relative;
+        margin: -17px;
+        right: 60px;
+        bottom: 8px;
+        height: 27px;
+      }
+    
+      #botao {
+        position: relative;
+        top: 0px;
+        left: 125px;
+        width: 75px;
+        height: 59px;
+      }
+    
+      #botao img {
+        height: 26px;
+      }
+    
+      .error {
+        margin-top: 5px;
+        margin-left: 33.5px;
+        font-size: 14px;
+      }
 }
