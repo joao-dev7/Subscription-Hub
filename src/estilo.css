@@ -97,9 +97,8 @@ div p.texto {
 
 .error {
   display: none;
-  position: relative;
-  top: 5px;
-  left: 25px;
+  margin-top: 10px;
+  margin-left: 22px;
   font-size: 12px;
   color: hsl(0, 93%, 68%);
   font-weight: 400;
